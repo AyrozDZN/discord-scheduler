@@ -1,0 +1,40 @@
+{
+  "name": "discord-scheduler",
+  "version": "1.0.0",
+  "description": "discord-scheduler is a powerful package that allow your discord bot to schedule anything",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js"
+    },
+    "./src/*": "./dist/*",
+    "./dist/*": "./dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyrozDZN/discord-scheduler.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Schedule",
+    "Scheduler",
+    "Cron",
+    "fs",
+    "events"
+  ],
+  "author": "AyrozDZN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AyrozDZN/discord-scheduler/issues"
+  },
+  "homepage": "https://github.com/AyrozDZN/discord-scheduler#readme"
+}
